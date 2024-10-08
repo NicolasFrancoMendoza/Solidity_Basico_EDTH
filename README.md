@@ -5,6 +5,8 @@ Este reporsitorio incluye mi trabajo del curso básico de Solidity de Educateth
 
 Este es un cambio desde el IDE *Remix* **en su versión web**
 
+## Este es un commit desde GitHub
+
 Este es un cambio desde *GitHub* **en su versión web**
 * Esto se puede hacer desde GitHub
 * Esto se puede hacer desde el IDE de REMIX
