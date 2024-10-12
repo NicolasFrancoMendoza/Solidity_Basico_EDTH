@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "saludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"holamundoETH.sol": "holamundoETH"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"holamundoETH.sol": {
+			"keccak256": "0x48d734c78f27e86af289077078ae1306e6fd68087d4f081bef0183d55b87da25",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0346d69eb21a4b959ceeb9fbc8f28b3fa01c9986f1d157fbe97c3279e73778c",
+				"dweb:/ipfs/QmZb1qnWApzCFGRfuSGxdRG9LjjfLqfAxQDzGdbvrfnqNZ"
+			]
+		}
+	},
+	"version": 1
+}
