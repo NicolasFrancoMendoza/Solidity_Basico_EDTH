@@ -4,7 +4,7 @@
 pragma solidity 0.8.24; //Defino la versión del compilador
 
 //a partir de acá coloco la lógica de mi contrato
-contract holamundoETH {
+contract hola_mundo {
     string public saludo = "hola desde Nueva Mapachelandia"; //declarando el contenido de mi variable "saludo"
 }
 
