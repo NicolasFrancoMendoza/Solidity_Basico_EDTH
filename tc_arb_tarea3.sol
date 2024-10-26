@@ -34,10 +34,10 @@ address payable public owner;
 
         /*
         modifier lo que hace es verificar dentro de otras funciones que al ejecutar
-        la funcio no se tenga el valor del fee + el gas
+        la función no se tenga el valor del fee + el gas
         */
         modifier cost(uint amount) {
-        require(msg.value >= amount, "No tiene saldo en ARB para ejcutar");
+        require(msg.value >= amount, "No tiene saldo en ARB para ejecutar");
         _;
         }
 
