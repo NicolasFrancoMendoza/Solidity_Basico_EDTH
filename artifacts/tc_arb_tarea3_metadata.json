@@ -1,0 +1,230 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "delivery_date",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "product",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "price",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "code",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "cel_number",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "int8",
+						"name": "status",
+						"type": "int8"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "wallet",
+						"type": "address"
+					}
+				],
+				"name": "newData",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "delivery_date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "product",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "price",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "code",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "cel_number",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "status",
+						"type": "int8"
+					},
+					{
+						"internalType": "address",
+						"name": "wallet",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_delivery_date",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_product",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_price",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_code",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_cel_number",
+						"type": "string"
+					},
+					{
+						"internalType": "int8",
+						"name": "_status",
+						"type": "int8"
+					}
+				],
+				"name": "pushData",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tc_arb_tarea3.sol": "tc_arb_tarea3"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tc_arb_tarea3.sol": {
+			"keccak256": "0x8aeb158f8e43819a589ef21a842d4cc448244e7b454237cbd8901803cd79859b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d92398ec1086cbc7e8aa943d244bdc5d4fd3b289dd4a470d3512be2b93fb4587",
+				"dweb:/ipfs/QmVk2JDopWgKmXDHSuYQ3L8BRU4RtNVjPBcsezjGownjTv"
+			]
+		}
+	},
+	"version": 1
+}
