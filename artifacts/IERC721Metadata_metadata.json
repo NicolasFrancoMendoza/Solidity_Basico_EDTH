@@ -417,10 +417,11 @@
 	},
 	"sources": {
 		"FungueroNFT_flattened.sol": {
-			"keccak256": "0xf150a3b1f32bfd978847b1822fc53c0c300cfdd45135735afca04960fc9fa6c6",
+			"keccak256": "0xaf9aa39d8e5acdb5c4de53aac9611a05bb8d4bedf5f104fdd301eb3237610575",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://8b1b86db8ca8246d3c7f217be9f0fb2d113c2b0eb3fdbbcf76de5b7abdebba5f",
-				"dweb:/ipfs/QmapyxGX5nT74rE1uVYU7HKLAQs5UAPkwtNFaUeyVQfPJe"
+				"bzz-raw://ab629009b91a52d88cf91dd56c42fd43a738a70cc3f8454fc457dcf1529a5c72",
+				"dweb:/ipfs/QmWqebYepkwK2vKBs3eiyHMDk2vVxocu87WPDuLmUvMcff"
 			]
 		}
 	},
